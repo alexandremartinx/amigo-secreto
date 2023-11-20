@@ -9,3 +9,12 @@ form.addEventListener('submit', e => {
   .then(() => { window.location.reload(); })
   .catch(error => console.error('Error!', error.message))
 })
+
+document.addEventListener("DOMContentLoaded", function() {
+  var dropdown = document.getElementById("cores");
+
+  dropdown.addEventListener("change", function() {
+      var selectedColor = dropdown.value;
+      alert("Você escolheu a cor: " + selectedColor);
+  });
+});
