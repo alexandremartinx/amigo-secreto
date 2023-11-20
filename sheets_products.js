@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   dropdown.addEventListener("change", function() {
       var selectedColor = dropdown.value;
-      alert("Você escolheu a cor: " + selectedColor);
+      alert("Bem-vindo " + selectedColor);
   });
 });
